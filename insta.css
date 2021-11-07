@@ -1,0 +1,89 @@
+body {
+    background-color: #FAFAFA;
+    padding: 5rem;
+  }
+  
+  ::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-position: 40%;
+    background-size: 6%;
+    background-image: url(../assets/search-solid.svg);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+  
+  }
+  
+  input.empty {
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      background-color: #FAFAFA;
+  }
+  
+  .postfont {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+
+  .storyname {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: rgba(15, 15, 15, 0.979);
+  }
+  
+  #sticky-sidebar {
+    position: fixed;
+  }
+  
+  
+  .story {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(214, 9, 71);
+    margin-right: 7px;
+  }
+  
+  
+  .panel {
+    border: none;
+    background-color: white;
+  }
+  .card{
+    margin-bottom:2em;
+  }
+  
+  .fas.fa-ellipsis-h {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .card-footer, .card-header {
+    background-color: white;
+  }
+  
+  .float-Right {
+    float: right;
+    
+  }
+  
+  .etiket {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  
+  .etiket:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  
+  .middle-area {
+    max-height: 200px !important; 
+  }
+  
+  
+  
